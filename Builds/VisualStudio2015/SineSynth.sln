@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{07FEA03F-CFB2-D277-D048-2F7C38F82675}") = "SineSynth", "SineSynth.vcxproj", "{A84432BA-095F-C0F4-921F-7E73AFB79E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84432BA-095F-C0F4-921F-7E73AFB79E00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A84432BA-095F-C0F4-921F-7E73AFB79E00}.Debug|Win32.Build.0 = Debug|Win32
+		{A84432BA-095F-C0F4-921F-7E73AFB79E00}.Release|Win32.ActiveCfg = Release|Win32
+		{A84432BA-095F-C0F4-921F-7E73AFB79E00}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

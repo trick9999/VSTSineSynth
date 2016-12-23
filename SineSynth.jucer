@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="lqrLmD" name="SineSynth" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.MahaSynth.SineSynth" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="1" buildAUv3="0" buildRTAS="0"
+              buildAAX="0" pluginName="SineSynth" pluginDesc="SineSynth" pluginManufacturer="MahaSynth"
+              pluginManufacturerCode="Manu" pluginCode="Lqrl" pluginChannelConfigs=""
+              pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="SineSynthAU"
+              pluginRTASCategory="" aaxIdentifier="com.MahaSynth.SineSynth"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.3.0"
+              companyName="MahaSynth" companyWebsite="http://radiomix.kaist.ac.kr"
+              companyEmail="kschun@kaist.ac.kr">
+  <MAINGROUP id="ygKyEQ" name="SineSynth">
+    <GROUP id="{656CBAE6-B28D-C067-EA6F-5290A0F843E9}" name="Source">
+      <GROUP id="{69A3A1E0-A824-1F96-5938-B0C7778C5D5E}" name="utils">
+        <FILE id="EbTuTy" name="MidiUtil.cpp" compile="1" resource="0" file="Source/MidiUtil.cpp"/>
+        <FILE id="tMUJ4M" name="MidiUtil.h" compile="0" resource="0" file="Source/MidiUtil.h"/>
+      </GROUP>
+      <GROUP id="{B6B8ECF0-26ED-714E-AFAF-6CFD7E398D11}" name="UIComponents">
+        <GROUP id="{DA508385-F68B-4D02-4028-5EAB81F15478}" name="ConsolePage">
+          <FILE id="cLF5kq" name="ConsoleBox.cpp" compile="1" resource="0" file="Source/ConsoleBox.cpp"/>
+          <FILE id="pSC5Z8" name="ConsoleBox.h" compile="0" resource="0" file="Source/ConsoleBox.h"/>
+          <FILE id="gz8xPd" name="ConsolePage.cpp" compile="1" resource="0" file="Source/ConsolePage.cpp"/>
+          <FILE id="Nczy2f" name="ConsolePage.h" compile="0" resource="0" file="Source/ConsolePage.h"/>
+        </GROUP>
+        <GROUP id="{0D4BE8DC-70D6-97FE-39DD-5518AE07D928}" name="SettingsPage">
+          <FILE id="UQF2yt" name="SettingsPage.cpp" compile="1" resource="0"
+                file="Source/SettingsPage.cpp"/>
+          <FILE id="dJ9aVz" name="SettingsPage.h" compile="0" resource="0" file="Source/SettingsPage.h"/>
+        </GROUP>
+        <FILE id="N1tUis" name="MainPage.cpp" compile="1" resource="0" file="Source/MainPage.cpp"/>
+        <FILE id="ZwuY1C" name="MainPage.h" compile="0" resource="0" file="Source/MainPage.h"/>
+      </GROUP>
+      <FILE id="NOSEQX" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="FWtt8z" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="xj2qve" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="dLb31S" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="Ouied2" name="SineSynth.cpp" compile="1" resource="0" file="Source/SineSynth.cpp"/>
+      <FILE id="oSXZ0w" name="SineSynth.h" compile="0" resource="0" file="Source/SineSynth.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="SineSynth"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="SineSynth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SineSynth"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="SineSynth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
