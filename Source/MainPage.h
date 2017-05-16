@@ -15,8 +15,6 @@
 
 #include "ConsolePage.h"
 #include "SettingsPage.h"
-//#include "InstrumentListBox.h"
-//#include "PatternListBox.h"
 
 class InstrumentPage : public Component
 {

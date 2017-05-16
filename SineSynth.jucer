@@ -8,7 +8,7 @@
               pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
               pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="SineSynthAU"
               pluginRTASCategory="" aaxIdentifier="com.MahaSynth.SineSynth"
-              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.3.0"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.3.1"
               companyName="MahaSynth" companyWebsite="http://radiomix.kaist.ac.kr"
               companyEmail="kschun@kaist.ac.kr">
   <MAINGROUP id="ygKyEQ" name="SineSynth">

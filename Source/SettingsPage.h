@@ -15,17 +15,6 @@
 			          "SINE WAVE SYNTHESIZER\n\n" \
                       "K.S. Chun\n"\
     		          "http://radiomix.kaist.ac.kr\n"
-/*
-#define INFO_TEXT "SEE THE HOST SETTINGS\n\n" \
-"Music and Audio Computing Lab., KAIST\n" \
-"http://mac.kaist.ac.kr\n\n" \
-"Developers:\n" \
-"Kyoungsoo Chun\n" \
-"Sangeon Yong\n" \
-"Soonbeom Choi\n\n" \
-"Advisor:\n" \
-"Prof. Juhan Nam"
-*/
 
 
 #include "../JuceLibraryCode/JuceHeader.h"
